@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding:2rem 4rem;
+    background-color: #DD0004;
+    color:pink;
+    font-size: 1.5rem;
+    color:#ffffff;
+  }
+  
+  button:hover {
+    color:#000;
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
